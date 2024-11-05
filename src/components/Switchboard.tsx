@@ -97,7 +97,7 @@ const Switchboard = () => {
 
   return (
     <div 
-      className="flex items-center justify-center grid gap-1 border border-white rounded-2xl shadow-2xl p-8 bg-gradient-to-r from-neutral-800 to-neutral-900"
+      className="flex items-center justify-center grid gap-1 border border-white rounded-2xl shadow-2xl p-4 bg-gradient-to-r from-neutral-800 to-neutral-900"
       style={{
         gridTemplateColumns: `repeat(${COLS}, 1fr)`,
         aspectRatio: `${COLS}/${ROWS}`
@@ -112,7 +112,7 @@ const Switchboard = () => {
           data-light="true"
           data-state={light.state}
           className={`
-            relative aspect-square rounded-full w-2
+            relative aspect-square rounded-full w-3
             transition-all duration-500
             ${light.state === 'off' ? 'bg-gray-800' : ''}
             ${light.state === 'medium' ? 'bg-blue-500/50 w-1 blur-md' : ''}
@@ -121,9 +121,9 @@ const Switchboard = () => {
         >
           <div 
             className={`
-              absolute inset-0 m-0.5 rounded-full transition-all duration-500 
+              absolute inset-0 m-0.5 rounded-full transition-all duration-500 blur-none
               ${light.state === 'off' ? 'bg-white/0' : ''}
-              ${light.state === 'medium' ? 'bg-white/50' : ''}
+              ${light.state === 'medium' ? 'bg-white/50 blur-none' : ''}
               ${light.state === 'high' ? 'bg-white w-1 h-1 blur-none' : ''}
             `}
           />
