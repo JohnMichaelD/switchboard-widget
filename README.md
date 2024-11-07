@@ -1,6 +1,6 @@
 # Switchboard Widget 🔌✨
 
-> A mesmerizing interactive switchboard component that creates a stunning light show and reveals hidden text through light patterns. Inspired by Next.js's switchboard on their website.
+> On Next.js' website, they have a pretty cool switchboard widget, that I thought would be fun to try and reverse engineer and  create my own.
 
 ![NEXT Switchboard](src/assets/NextSwitchboard.gif)
 
@@ -8,7 +8,7 @@
 
 This project recreates and reimagines the captivating switchboard animation from the Next.js website. The widget features an array of interactive lights that sparkle randomly and reveal text ("JOHN") when users hover over the component. Each light dynamically transitions between different states, creating a mesmerizing visual effect.
 
-[View the live widget here.](https://switchboard-widget.vercel.app/)
+[View my version here.](https://switchboard-widget.vercel.app/)
 
 ## ✨ Features
 
@@ -54,7 +54,7 @@ This project recreates and reimagines the captivating switchboard animation from
    - Developed a system to coordinate multiple light states for text reveal
    - Managed complex state transitions while maintaining smooth animations
 
-## 🚀 Installation & Usage
+<!-- ## 🚀 Installation & Usage
 
 1. Install dependencies:
 ```bash
@@ -73,7 +73,7 @@ function App() {
     
   );
 }
-```
+``` -->
 
 ## 💻 Tech Stack
 
@@ -105,6 +105,7 @@ The switchboard can be customized by modifying:
 - Implement different animation patterns
 - Add color customization options
 - Create presets for common text layouts
+- Algorithm to dynamically create text letters
 
 ## 📝 License
 
