@@ -81,7 +81,7 @@ function App() {
 - TypeScript
 - Tailwind CSS
 - Vite
-
+ 
 ## 🎨 Customization
 
 The switchboard can be customized by modifying:
